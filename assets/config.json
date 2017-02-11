@@ -1,8 +1,8 @@
 {
     "pageOptions" : {
-        "headerImage" : "http://placehold.it/250x250",
-        "headerColor" : "#F3F8FE",
-        "headline" : "Privacy Policy",
+        "headerImage" : "http://swankvibe.com/images/swanklogo_512_512.png",
+        "headerColor" : "#ffeaea",
+        "headline" : "SwankVibe Privacy Policy",
         "subHeading" : "<b>We will not</b>, without your permission, sell, publish or share information you entrust to us that identifies you or any person.",
         "footerLink" : "Full Privacy",
         "footerLinkURL" : "",
@@ -13,27 +13,31 @@
     },
     "collected" : [
         {
+            "element" : "Contact information",
+            "why" : "To stay connected.",
+            "class" : "",
+            "moreInfo" : ["Email and other contact information you use to communicate. Only with your permission."]
+        },
+        {
+            "element" : "Location information",
+            "why" : "To find your local styles.",
+            "class" : "",
+            "moreInfo" : ["Current location used to find local style and fashion trends. Only with your permission."]
+        },
+        {
+            "element" : "User files",
+            "why" : "To display your fashion posts to other users.",
+            "class" : "",
+            "moreInfo" : ["Images you submit with your fashion posts."]
+        }
+    ],
+    "notCollected" : [
+        {
             "element" : "Financial information",
             "why" : "To manage your business.",
             "class" : "",
             "moreInfo" : ["Credit, bank, tax, and other financial data you use to stay productive. Only with your permission."]
-        }
-        ,
-        {
-            "element" : "Contact information",
-            "why" : "To stay connected.",
-            "class" : "",
-            "moreInfo" : ["Address, phone, email, and other contact information you use to communicate. Only with your permission."]
-        }
-        ,
-        {
-            "element" : "Location information",
-            "why" : "To find your customers.",
-            "class" : "",
-            "moreInfo" : ["Past and current locations used to find and track expenses and receipts. Only with your permission."]
-        }
-    ],
-    "notCollected" : [
+        },
         {
             "element" : "Biometrics",
             "why" : "We <b>do not</b> collect this.",
@@ -57,12 +61,6 @@
             "why" : "We <b>do not</b> collect this.",
             "class" : "",
             "moreInfo" : ["<i>Health, medical, or therapy information</i> includes your health claims and information you use to measure health and wellness."]
-        },
-        {
-            "element" : "User files",
-            "why" : "We <b>do not</b> collect this.",
-            "class" : "",
-            "moreInfo" : ["<i>User files</i> are files containing your content, such as calendar, photos, text, or video."]
         }
     ],
     "shared" : [
